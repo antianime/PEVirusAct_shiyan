@@ -16,7 +16,7 @@ std::vector<BYTE[8]> SectionNames;
 
 bool FileHeaderTamper;
 bool SectionTamper(HANDLE, LONG, unsigned char*);
-bool TextSectionTamper(HANDLE, IMAGE_SECTION_HEADER, unsigned char*, int);
+bool TextSectionTamper(HANDLE, unsigned char*, int);
 bool EntryPointCover(HANDLE, IMAGE_NT_HEADERS*, DWORD);
 
 unsigned char shellcode[];

@@ -30,7 +30,7 @@ bool SectionTamper(HANDLE hpFile, LONG Point, unsigned char* buffer)
 	
 }
 
-bool TextSectionInjection(HANDLE hpFile, unsigned char* buffer, DWORD EntryPoint)
+bool TextSectionTamper(HANDLE hpFile, unsigned char* buffer, DWORD EntryPoint)
 {
 	unsigned long NumberOfBytesRead;
 	DWORD PointerToRawPointer;

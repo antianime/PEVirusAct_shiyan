@@ -1,4 +1,5 @@
 #include"fh.h"   
+#include"funcs.cpp"
 
 using namespace std;
 
