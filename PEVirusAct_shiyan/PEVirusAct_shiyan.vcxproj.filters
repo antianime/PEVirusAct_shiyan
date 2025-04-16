@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="funcs.cpp">
+    <ClCompile Include="PETamper_funcs.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

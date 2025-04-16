@@ -22,6 +22,31 @@ int main()
 	//cin >> FileName;
 	string FileName = "C:\\Users\\86134\\source\\repos\\addcalcu\\x64\\Debug\\addcalcu.exe";
 
+	//PathFileExistsA(FileName.c_str());	// 检查文件是否存在
+
+	PETamper pt(FileName);
+
+	HANDLE hpFile = CreateFileA("TestFile", GENERIC_READ | GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
+	if (hpFile == INVALID_HANDLE_VALUE)
+	{
+		std::cerr << "CreateFile failed with error code " << GetLastError() << std::endl;
+		return 1;
+	}
+
+	pt.Assembly(hpFile);
+
+	CloseHandle(hpFile);	// 关闭文件句柄
+
+
+
+
+
+
+
+	/*
+	
+	
+	
 	unsigned long NumberOfBytesRead;	// 读取字节数计数
 	unsigned char MZSignal[2];			// 用于检查"MZ"签名的缓冲区
 
@@ -143,13 +168,13 @@ int main()
 
 
 
-	/*
+	
 	for (int i = 0; i < sizeof(IMAGE_DOS_HEADER); i++)
 	{
 		cout << hex << (int)((unsigned char*)&idh)[i] << " ";
 	}
-	*/
 	
+	*/
 	
 	return 0;
 }
