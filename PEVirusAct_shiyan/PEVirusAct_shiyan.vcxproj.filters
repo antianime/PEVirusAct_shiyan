@@ -26,5 +26,11 @@
     <ClInclude Include="fh.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="QT_Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MainWindow.ui" />
   </ItemGroup>
 </Project>

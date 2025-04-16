@@ -240,6 +240,8 @@ bool PETamper::Assembly(HANDLE hFile)
 
 	//cout << idh.e_magic << endl;
 
+	//adjust
+	RawSizeNRawAddressAdjust();
 
 
 	// 1. 写入DOS头
@@ -276,12 +278,20 @@ bool PETamper::Assembly(HANDLE hFile)
 	// 5. 写入NT头
 	WriteFile(hFile, &inh, sizeof(IMAGE_NT_HEADERS), NULL, NULL);
 
+	//文件对齐，空隙
+
 	// 6. 写入所有节区头
 	for (int i = 0; i < NumberOfSections; i++)
 		WriteFile(hFile, &SectionHeaders[i], sizeof(IMAGE_SECTION_HEADER), NULL, NULL);
 	//WriteFile(hFile, check, sizeof(check), NULL, NULL);
+
+	
 	for (WORD i = 0; i < NumberOfSections; i++)
 	{
+
+
+
+
 		//cout << SectionNames[i] << endl;
 		if (!strcmp((const char*)SectionNames[i].data(), ".text"))
 		{
@@ -294,6 +304,7 @@ bool PETamper::Assembly(HANDLE hFile)
 			
 		}
 	}
+	//Write Sections
 	for (WORD i = 0; i < NumberOfSections; i++)
 	{
 		WriteFile(hFile, Sections[i].data(), Sections[i].size(), NULL, NULL);
@@ -315,7 +326,7 @@ bool HeaderInfoIni(vector<FieldInfo>HEADER_INFO)
 
 }
 
-bool PETamper::EntryPointCover(HANDLE hpFile, DWORD EntryPoint)
+bool PETamper::EntryPointCoverA(HANDLE hpFile, DWORD EntryPoint)
 {
 	unsigned long NumberOfBytesRead;
 	SetFilePointer(hpFile, inh.OptionalHeader.AddressOfEntryPoint, NULL, 0);
@@ -329,7 +340,7 @@ bool PETamper::EntryPointCover(HANDLE hpFile, DWORD EntryPoint)
 		return true;
 }
 
-bool PETamper::SectionTamper(HANDLE hpFile, LONG Point, unsigned char* buffer)
+bool PETamper::SectionTamperA(HANDLE hpFile, LONG Point, unsigned char* buffer)
 {
 	unsigned long NumberOfBytesRead;
 	SetFilePointer(hpFile, Point, NULL, 0);
@@ -371,7 +382,7 @@ bool PETamper::FieldTamper(PVOID object, LONG Point, char* buffer)
 	return true;
 }
 
-bool PETamper::TextSectionTamper(HANDLE hpFile, unsigned char* buffer, DWORD EntryPoint)
+bool PETamper::TextSectionTamperA(HANDLE hpFile, unsigned char* buffer, DWORD EntryPoint)
 {
 	unsigned long NumberOfBytesRead;
 	DWORD PointerToRawPointer;
@@ -379,12 +390,75 @@ bool PETamper::TextSectionTamper(HANDLE hpFile, unsigned char* buffer, DWORD Ent
 	{
 		if (!strcmp((const char*)SectionNames[i].data(), ".text"))
 		{
-			SectionTamper(hpFile, SectionHeaders[i].PointerToRawData, buffer);
-			EntryPointCover(hpFile, EntryPoint);
+			SectionTamperA(hpFile, SectionHeaders[i].PointerToRawData, buffer);
+			EntryPointCoverA(hpFile, EntryPoint);
 			return true;
 		}
 	}
 	return false;
+}
+
+bool PETamper::RawSizeNRawAddressAdjust()
+{
+	// 计算节区的SizeOfRawData和PointerToRawData
+	for (WORD i = 0; i < NumberOfSections; i++)
+	{
+		SectionHeaders[i].SizeOfRawData = Sections[i].size();
+		//SectionHeaders[i].PointerToRawData = idh.e_lfanew + sizeof(IMAGE_NT_HEADERS) + sizeof(IMAGE_SECTION_HEADER) * NumberOfSections + stubbuffer.size() + sizeof(IMAGE_DOS_HEADER);
+	}
+
+	//Adjust PointerToRawData
+
+	//NT Headers
+	if (idh.e_lfanew < sizeof(IMAGE_DOS_HEADER) + stubbuffer.size())
+	{
+		idh.e_lfanew = sizeof(IMAGE_DOS_HEADER) + stubbuffer.size();
+	}
+
+	//Section Headers
+	//if()
+
+	//Sections
+	string zerobuffer;
+	int tempsize;
+	for (int i = 0; i < NumberOfSections; i++)
+	{
+		//节对齐
+		//Sections[i].resize((SectionHeaders[i].SizeOfRawData + 199) / 200 * 200, '\0');
+		tempsize = Sections[i].size() % inh.OptionalHeader.FileAlignment;
+		if (SectionHeaders[i].SizeOfRawData != 0)
+		{
+			if (tempsize != 0)
+			{
+				Sections[i].resize(Sections[i].size() + inh.OptionalHeader.FileAlignment - tempsize, '\0');
+				SectionHeaders[i].SizeOfRawData = Sections[i].size();
+			}
+				
+			if (i == 0 || SectionHeaders[i - 1].SizeOfRawData == 0 || SectionHeaders[i - 1].PointerToRawData == 0)
+			{
+				tempsize = (idh.e_lfanew + sizeof(IMAGE_NT_HEADERS) + sizeof(IMAGE_SECTION_HEADER)) % inh.OptionalHeader.FileAlignment;
+				if (tempsize != 0)
+				{
+					SectionHeaders[i].PointerToRawData = inh.OptionalHeader.FileAlignment + (idh.e_lfanew + sizeof(IMAGE_NT_HEADERS) + sizeof(IMAGE_SECTION_HEADER)) - tempsize;
+					//Sections[i].insert(Sections[i].begin(), zerobuffer.begin(), zerobuffer.end());
+					//SectionHeaders[i].PointerToRawData = idh.e_lfanew + sizeof(IMAGE_NT_HEADERS) + sizeof(IMAGE_SECTION_HEADER) * NumberOfSections + stubbuffer.size() + sizeof(IMAGE_DOS_HEADER);
+				}
+			}
+			else
+			{
+				SectionHeaders[i].PointerToRawData = SectionHeaders[i - 1].PointerToRawData + SectionHeaders[i - 1].SizeOfRawData;
+			}
+		}
+			
+
+			
+	}
+		
+		
+	
+
+
+	return true;
 }
 
 bool DisplaySection(WORD num)

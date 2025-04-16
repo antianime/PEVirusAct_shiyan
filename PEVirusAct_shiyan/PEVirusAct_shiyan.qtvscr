@@ -1,0 +1,449 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
+  <FlowDocument.Tag><![CDATA[{
+  "timestamp": "2025-04-17 08:46:04",
+  "files": {
+    "C:\\Users\\86134\\source\\repos\\PEVirusAct_shiyan\\PEVirusAct_shiyan\\PEVirusAct_shiyan.vcxproj": {
+      "before": "7VlLb+M2EN5zgf6CXgRhF04OsezYeWwja5GVncCokxhxHpcCAS1RNruSKJBUNmm3/70jiaQsP3bjpk22aXIIYHJmOBzOfPOQ89ObN/aHuyg0bjHjhMYds1lvmAaOPeqTeNIxUxFs7ZsfnB9/sIeM/oY9YXRxgNJQXCA2wYJ3zI8pCX3TACkx/JoKkfxsWdyb4gjxekQ8RjkNRN2jkeXjWxzSBDMr4uOMzdpuNFomSDcMuy9wdMxomhgDNMZhx5QHujQOyCRlSICCvCAG8mW7Rj/2wtTHHbOLx+nkyzWJW9uKA3gqopycxraqi5kq2Z89DJEIKIucXIht6d8FBSwU9ljG/g3lznGIEcffUE9SPYeChfXudtuPtR2I+Fcs9zXVHmy3NZWzLe2hhcOCA4Ari/uK0x6HdIzC0k2vXOknV0WEOc29esO2FpalV/2C7z9T5hdOl3HallqSFFLccUp8549gt/l+f9/DW+12M4B/Oztb7/ca7a0Wavn+fnsn2Ea7f2pXzXmkmHNKxSmKME+Qh51h74qwlB96gk/JPYptq7ovmSAUfPqZF6GvAkJfrJFd7KskmZhcm9JuMvajhDJhyLt1zLcbV64EmCES081fTzSOuElSlxBUT+AFuGlYy94D4tInGWR0zNrbjUqUbn55u6G036x1OrUZtKiZCn4qLCoQqhBycZ9g5zBJQuLl6DQXq/m2NN0lx/kpAzJmiBHMHcFSbFuL65JBKXhBacixcG6b7VYZS2pVErtTxJAnMBsB5WVMAL5BdmV1pe3B6OVzGOuYrYJjT2e4AOLrH7Pc9ZSGGEwwYSg6SwSJyO/5U8rnWbn9rIbX+Px0Rn853gqw/3Rmeym+2l8PoKvAXDBX0mTvTuA4qzgBsARUmjJhQo7ND8ppZ1NDhXkEaIf9ApIfxqEwbjTFULOaa6FcJTnkOkESW7QHADnLkmaXsPl0NZNt6imQqbw1g7X4jnDBNyBTrS2ntqlT1oB6KIR81EUCqfyh0+ODTPsYQ82lg1dT6a5lRcGRI9GrmVabSXnUyzOUirMKrmWhf4KyhlkHbdZyQLVL4ryULahnYGO9yla5mhu6NEpIiOUC4Nk1YjHA8CBr0J38PxSblcWi4AHSUXfgTrH3SVZI+qcmGDIM+O9hzikrdefOdf+0tX1w0+19vDw+uHHPTkdng97Bu40V9JtZp7Bckj4qq9GhR0exh0+g5JUqza/KWs2av7c9IPGn0gajdDy652BwBwRwKAttq1zSRx7jGMMsoqjm+8XxWZshz165rZTQZxb9ZGmg2Zz3yFdXcZOPLmpl7/Kodz9KYy+7aO4d2S3AX+Sll25pi/VjwQgke0+Rqd5nyYZm0m5VFJ76pyZY5RuFl53+x72sF6NxiN2zk+7hxRENs2GctPWyHW0U2cHgcxxgBlM83WYu2dBMK122MP3K7UKAbT2FR890PM+MYs+GXwC9AxRPUjTBI4FiH8GYiAvfS5JtmLssbOnnnd+5cXO25t4iE2ypR/3fYWWlxpi//XoZUuHcd46Urxj5/WFkWQSAy2kvLL9rDHsXKIJx3U0A2ZjXIfhVdgf63l3+9cM/YjTKv8r8jT63CAM5tlgQuBoelugaIRLnGqoB7fwAvTpPzy8sP+CUFw6m9amuhhcErDeVEMUnKy1uZtaghr56LiGnz8uHDHqi7vwF",
+      "after": "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"
+    },
+    "C:\\Users\\86134\\source\\repos\\PEVirusAct_shiyan\\PEVirusAct_shiyan\\PEVirusAct_shiyan.vcxproj.user": {
+      "before": "zZJPa8MwDMULuw32HYwppD0s7p8xxkjaQwe77NB2ZTsnjpJ4OFaw5dJBP/ycjNx63KBHPYn3fkia34xGyfrUaHYE6xSalM/jGWdgJBbKVCn3VN4/8fXq7jbZWvwCSeyAqN3HML/x1oIhzoKLcSmvidpnIZysoclc3Chp0WFJscRGFHAEjS1Y0bjcK12IxWy25MGdsc4/dOj71aJvmbgkvmU56JTv6B2IAp/jbIOmUNSjR+NJqEpVeZt1yvQ8nmx1RiXaZhqlafQCua/On8osF9FvaIjd0QG9rIf0PjbI4pKeiGGsh/w3xNPjw7UC7kFD5uC6tzhA/uEe+9N3/7/6AQ==",
+      "after": "zZJPS8NAEMUL3gQ/gLdlKaQ9mI2tiEiSHip48dBq0XP+TJKVzU7YnS0V+uHdpOQiHhV6nDfDez9m5vpiMolXh1axPRgrUSf8Now4A11gKXWdcEfVzQNfpVeX8cbgJxTEdojKvo/za2cMaOLMu2ib8IaoexTCFg20mQ1bWRi0WFFYYCtK2IPCDoxobe6kKsUiipbcuzPW+/sOfT0bdB0Tv4kvWQ4q4Vt6AyLPZzlboy4lDejBdOarStbOZL0yP05nG5VRhaadB0kSPEHu6uOH1MtFcAr1sVvaoSuaMT2NxU9loBPjwID3b3CH+7vzQ3sFBZmFc93ciPcnu4v7Q/d/nn4D"
+    }
+  }
+}]]></FlowDocument.Tag>
+  <Section Margin="0,24" TextAlignment="Center">
+    <Paragraph FontSize="24" FontWeight="Bold" Margin="12,0">
+      <LineBreak />
+      <Span Foreground="Gray">Qt Visual Studio Tools</Span>
+    </Paragraph>
+    <Paragraph FontSize="42" Margin="12,0" FontWeight="Bold">
+      <Span TextDecorations="Underline">Project Format Conversion</Span>
+    </Paragraph>
+    <Paragraph Margin="12,8" FontSize="18">
+      <Span>Report generated on 2025-04-17 08:46:04</Span>
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Files</Span>
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj.user]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj.user?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj.user?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj.user?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj.user?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj.user?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Changes</Span>
+    </Paragraph>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Enabling multi-processor compilation]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Project format version]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Keyword>QtVS_v304</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Fallback for QTMSBUILD environment variable]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Default Qt properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt build settings]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Warn if Qt/MSBuild is not found]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </Target>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt property sheet]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt targets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\86134\source\repos\PEVirusAct_shiyan\PEVirusAct_shiyan\PEVirusAct_shiyan.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+  </Section>
+  <Section>
+    <Paragraph />
+  </Section>
+</FlowDocument>
+<!--N/Cdnc4RhsnuEBotXeqXG841BV/oWExUTTi0XCAmhtY=-->

@@ -65,6 +65,7 @@ extern std::vector < std::vector<char>>Sections;            // 节区数据向量
 
 
 // 函数声明
+/*
 bool FileHeaderTamper();        // 文件头篡改函数
 bool SectionTamper(HANDLE, LONG, unsigned char*);       // 节区篡改
 bool TextSectionTamper(HANDLE, unsigned char*, int);    // .text节区篡改
@@ -75,6 +76,8 @@ bool FieldTamper(LONG ,char* );                     // 字段篡改
 bool AtomTamper(PVOID , LONG , unsigned char* , int );  //obsolete
 
 bool Assembly(HANDLE);              // 汇编相关功能
+*/
+
 
 
 extern unsigned char shellcode[];       // 外部定义的shellcode数组
@@ -98,9 +101,9 @@ public:
 	PETamper(std::string FileName);
 	//~PETamper();
 	//bool FileHeaderTamper(HANDLE hFile, unsigned char* buffer, int size, int ObjectFlag, int DecisionFlag);
-	bool SectionTamper(HANDLE hFile, LONG Point, unsigned char* buffer);
-	bool TextSectionTamper(HANDLE hFile, unsigned char* buffer, DWORD EntryPoint);
-	bool EntryPointCover(HANDLE hFile, DWORD EntryPoint);
+	bool SectionTamperA(HANDLE hFile, LONG Point, unsigned char* buffer);
+	bool TextSectionTamperA(HANDLE hFile, unsigned char* buffer, DWORD EntryPoint);
+	bool EntryPointCoverA(HANDLE hFile, DWORD EntryPoint);
 	//bool HeaderInfoIni(std::vector<FieldInfo> HEADER_INFO);
 	bool FieldTamper(PVOID object, LONG Point, char* buffer);
 	bool DOSFieldTamper(PVOID object, LONG Point, std::string buffer);
